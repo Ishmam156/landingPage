@@ -88,3 +88,46 @@ button:hover {
   text-align: center;
   align-self: center;
 }
+
+h2 {
+  text-align: center;
+}
+
+.projectScreen {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 100px;
+  gap: 75px;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  padding: 20px 100px;
+  gap: 20px;
+}
+
+.project img {
+  width: 150px;
+  height: auto;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+.project p {
+  color: #3a424e;
+  text-align: center;
+  font-size: 18px;
+}
+
+.project a {
+  color: #3a424e;
+}
+
+.singleProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
