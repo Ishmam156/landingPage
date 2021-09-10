@@ -131,3 +131,24 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+
+.quoteSection {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 100px;
+  gap: 20px;
+  text-align: center;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.author {
+  font-weight: bold;
+  align-self: center;
+}
