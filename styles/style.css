@@ -15,20 +15,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 40px 100px;
   background-color: #1f2937;
   color: #f9f1f8;
 }
 
 .logo {
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
-.headerLinks {
+.headerLinks,
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+a {
+  text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -39,4 +43,48 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+.splash {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 40px 100px;
+  gap: 75px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9f1f8;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2972e7;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.rightSplash {
+  display: flex;
+  align-items: stretch;
+}
+
+.rightSplash img {
+  width: 450px;
+  height: auto;
+  text-align: center;
+  align-self: center;
 }
