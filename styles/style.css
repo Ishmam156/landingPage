@@ -152,3 +152,10 @@ h2 {
   font-weight: bold;
   align-self: center;
 }
+
+.footer {
+  padding: 40px 100px;
+  background-color: #1f2937;
+  text-align: center;
+  color: #f9f1f8;
+}
